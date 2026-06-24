@@ -1,0 +1,22 @@
+<svg width="960" height="500" viewBox="0 0 960 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Пример вывода speed_meter.py</title>
+  <desc id="desc">Окно терминала с примером запуска скрипта и итоговой скоростью скачивания.</desc>
+  <rect width="960" height="500" rx="20" fill="#F6F8FA"/>
+  <rect x="48" y="48" width="864" height="404" rx="14" fill="#0D1117"/>
+  <rect x="48" y="48" width="864" height="42" rx="14" fill="#21262D"/>
+  <circle cx="76" cy="69" r="7" fill="#FF6B6B"/>
+  <circle cx="100" cy="69" r="7" fill="#FFD43B"/>
+  <circle cx="124" cy="69" r="7" fill="#51CF66"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="20">
+    <text x="76" y="128" fill="#7EE787">&gt; python speed_meter.py "https://example.com/large-image.jpg"</text>
+    <text x="76" y="168" fill="#C9D1D9">01/10: 1.204 s, 5.24 MB</text>
+    <text x="76" y="198" fill="#C9D1D9">02/10: 1.180 s, 5.24 MB</text>
+    <text x="76" y="228" fill="#C9D1D9">03/10: 1.217 s, 5.24 MB</text>
+    <text x="76" y="258" fill="#8B949E">...</text>
+    <text x="76" y="288" fill="#C9D1D9">10/10: 1.203 s, 5.24 MB</text>
+    <text x="76" y="338" fill="#C9D1D9">Requests: 10</text>
+    <text x="76" y="368" fill="#C9D1D9">Average request time: 1.196 s</text>
+    <text x="76" y="398" fill="#C9D1D9">Downloaded data: 52.40 MB (52400000 bytes)</text>
+    <text x="76" y="428" fill="#FFA657">Speed: 4.38 MB/s</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="960" height="360" viewBox="0 0 960 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Схема работы замерителя скорости</title>
+  <desc id="desc">URL передается в скрипт, затем выполняются 10 последовательных запросов, после чего считаются среднее время, объем данных и скорость.</desc>
+  <rect width="960" height="360" rx="20" fill="#F6F8FA"/>
+  <rect x="36" y="36" width="888" height="288" rx="16" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="72" y="118" width="160" height="104" rx="10" fill="#E7F5FF" stroke="#74C0FC" stroke-width="2"/>
+    <text x="152" y="156" text-anchor="middle" font-size="20" font-weight="700" fill="#0B5CAD">URL</text>
+    <text x="152" y="185" text-anchor="middle" font-size="15" fill="#334155">тяжелая картинка</text>
+
+    <path d="M248 170H318" stroke="#57606A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M318 170L303 160V180L318 170Z" fill="#57606A"/>
+
+    <rect x="334" y="98" width="220" height="144" rx="10" fill="#ECFDF5" stroke="#63E6BE" stroke-width="2"/>
+    <text x="444" y="137" text-anchor="middle" font-size="20" font-weight="700" fill="#087F5B">10 запросов</text>
+    <text x="444" y="166" text-anchor="middle" font-size="15" fill="#334155">последовательно</text>
+    <text x="444" y="192" text-anchor="middle" font-size="15" fill="#334155">каждый ответ</text>
+    <text x="444" y="216" text-anchor="middle" font-size="15" fill="#334155">скачивается полностью</text>
+
+    <path d="M570 170H640" stroke="#57606A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M640 170L625 160V180L640 170Z" fill="#57606A"/>
+
+    <rect x="656" y="98" width="232" height="144" rx="10" fill="#FFF4E6" stroke="#FFA94D" stroke-width="2"/>
+    <text x="772" y="137" text-anchor="middle" font-size="20" font-weight="700" fill="#D9480F">Результат</text>
+    <text x="772" y="166" text-anchor="middle" font-size="15" fill="#334155">среднее время</text>
+    <text x="772" y="192" text-anchor="middle" font-size="15" fill="#334155">объем данных</text>
+    <text x="772" y="216" text-anchor="middle" font-size="15" fill="#334155">скорость MB/s</text>
+
+    <text x="480" y="288" text-anchor="middle" font-size="16" fill="#57606A">speed_meter.py считает скорость скачивания по фактически полученным байтам</text>
+  </g>
+</svg>
