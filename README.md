@@ -31,35 +31,44 @@ cd ad-robot
 Запустите скрипт, передав ссылку на большой файл:
 
 ```bash
-python speed_meter.py "https://example.com/large-image.jpg"
+python speed_meter.py "https://speed.cloudflare.com/__down?bytes=10000000"
 ```
 
 По умолчанию будет выполнено 10 запросов.
+
+Рабочий пример для проверки:
+
+```bash
+python speed_meter.py "https://speed.cloudflare.com/__down?bytes=10000000"
+```
+
+Этот URL скачивает примерно `10 MB` данных за один запрос. При стандартных настройках
+скрипт сделает 10 запросов и скачает около `100 MB`.
 
 ## Примеры запуска
 
 Запуск с количеством запросов по умолчанию:
 
 ```bash
-python speed_meter.py "https://example.com/large-image.jpg"
+python speed_meter.py "https://speed.cloudflare.com/__down?bytes=10000000"
 ```
 
 Запуск с другим количеством запросов:
 
 ```bash
-python speed_meter.py "https://example.com/large-image.jpg" --requests 5
+python speed_meter.py "https://speed.cloudflare.com/__down?bytes=10000000" --requests 5
 ```
 
 То же самое через короткий параметр:
 
 ```bash
-python speed_meter.py "https://example.com/large-image.jpg" -n 5
+python speed_meter.py "https://speed.cloudflare.com/__down?bytes=10000000" -n 5
 ```
 
 Запуск с увеличенным таймаутом:
 
 ```bash
-python speed_meter.py "https://example.com/large-image.jpg" --timeout 120
+python speed_meter.py "https://speed.cloudflare.com/__down?bytes=10000000" --timeout 120
 ```
 
 ## Пример вывода
