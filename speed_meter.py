@@ -30,7 +30,9 @@ def parse_args() -> argparse.Namespace:
             "average request time, downloaded data volume, and speed in MB/s."
         )
     )
-    parser.add_argument("url", help="URL to download, for example a large image or binary file")
+    parser.add_argument(
+        "url", help="URL to download, for example a large image or binary file"
+    )
     parser.add_argument(
         "-n",
         "--requests",
