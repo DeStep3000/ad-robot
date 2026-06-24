@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""Measure download speed by making sequential HTTP requests to one URL."""
 
 from __future__ import annotations
 
